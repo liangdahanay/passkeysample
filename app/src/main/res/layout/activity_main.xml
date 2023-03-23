@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center"
+        android:text="Passkey Android Sample App"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Step 1: Start with adding a user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/manage_user_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Users" />
+
+    <TextView
+        android:text="Step 2: Enroll a passkey for the user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/enroll_passkey_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enroll Passkey" />
+
+    <TextView
+        android:text="Step 3: Authenticate with Passkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/auth_passkey_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Authenticate with Passkey" />
+
+    <TextView
+        android:text="Some miscellaneous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/miscellaneous_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Miscellaneous" />
+</LinearLayout>
